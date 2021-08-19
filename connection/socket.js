@@ -6,7 +6,7 @@ class Socket {
     constructor(server){ //생성자 설정 객체 생성과 초기화
         this.io = new Server(server,{
             cors: {
-                origin:'*',
+                origin:'https://cranky-ride-03091f.netlify.app',
             },
         });
     
